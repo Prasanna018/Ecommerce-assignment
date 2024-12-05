@@ -10,7 +10,7 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-4xl md:text-6xl font-bold text-primary mb-4">
+            <h1 className="text-4xl pt-12 md:text-6xl font-bold text-primary mb-4">
               Discover Your Style
             </h1>
             <p className="text-secondary text-lg mb-8">
@@ -20,7 +20,7 @@ const Hero = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-accent text-white px-8 py-3 rounded-md font-medium"
+              className="bg-accent text-white px-8 py-3  rounded-md font-medium text-center"
             >
               Shop Now
             </motion.button>
