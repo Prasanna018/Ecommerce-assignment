@@ -10,7 +10,7 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-4xl pt-12 md:text-6xl font-bold text-primary mb-4">
+            <h1 className="text-4xl pt-12 sm:pt-12 md:text-6xl font-bold text-primary mb-4">
               Discover Your Style
             </h1>
             <p className="text-secondary text-lg mb-8">
